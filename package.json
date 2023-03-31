@@ -1,0 +1,62 @@
+{
+  "name": "@paulrobertlloyd/markdown-it-rules",
+  "version": "0.0.0",
+  "description": "markdown-it rules for my personal website.",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "cite"
+  ],
+  "homepage": "https://github.com/paulrobertlloyd/markdown-it-rules#readme",
+  "bugs": {
+    "url": "https://github.com/paulrobertlloyd/markdown-it-rules/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "url": "https://paulrobertlloyd.com"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulrobertlloyd/markdown-it-rules.git"
+  },
+  "scripts": {
+    "lint": "xo",
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "coverage": "c8 mocha",
+    "release": "np"
+  },
+  "devDependencies": {
+    "c8": "^7.11.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-testgen": "^0.1.6",
+    "mocha": "^10.0.0",
+    "np": "*",
+    "xo": "^0.53.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "c8": {
+    "reporter": [
+      "text",
+      "lcovonly"
+    ]
+  },
+  "xo": {
+    "space": true,
+    "envs": "node",
+    "rules": {
+      "unicorn/prefer-module": 0
+    }
+  }
+}

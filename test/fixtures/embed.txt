@@ -1,0 +1,54 @@
+Link with no title text (no caption)
+.
+[Link](#)
+.
+<p><a href="#">Link</a></p>
+.
+
+
+YouTube link with no title text (no caption)
+.
+[Paul McCartney – I’ve Got a Feeling](https://www.youtube.com/watch?v=g4UsXksoGNg)
+.
+<figure class="embed"><a href="https://www.youtube.com/watch?v=g4UsXksoGNg" rel="noreferrer noopener" target="_blank"><img src="https://img.youtube.com/vi/g4UsXksoGNg/mqdefault.jpg" alt="" loading="lazy"><p>Paul McCartney – I’ve Got a Feeling<br><span>Watch on youtube.com (opens in a new tab)</span></p></a></figure>
+.
+
+
+YouTube link with custom image (no caption)
+.
+[![Paul McCartney – I’ve Got a Feeling](/path/to/image.png)](https://www.youtube.com/watch?v=g4UsXksoGNg)
+.
+<figure class="embed"><a href="https://www.youtube.com/watch?v=g4UsXksoGNg" rel="noreferrer noopener" target="_blank"><img src="/path/to/image.png" alt="" loading="lazy"><p>Paul McCartney – I’ve Got a Feeling<br><span>Watch on youtube.com (opens in a new tab)</span></p></a></figure>
+.
+
+
+YouTube link with title text (caption)
+.
+[Paul McCartney – I’ve Got a Feeling](https://www.youtube.com/watch?v=g4UsXksoGNg "Title")
+.
+<figure class="embed"><a href="https://www.youtube.com/watch?v=g4UsXksoGNg" rel="noreferrer noopener" target="_blank"><img src="https://img.youtube.com/vi/g4UsXksoGNg/mqdefault.jpg" alt="" loading="lazy"><p>Paul McCartney – I’ve Got a Feeling<br><span>Watch on youtube.com (opens in a new tab)</span></p></a><figcaption>Title</figcaption></figure>
+.
+
+
+Vimeo link with no title text (no caption)
+.
+[The illusion of life](https://vimeo.com/93206523)
+.
+<figure class="embed"><a href="https://vimeo.com/93206523" rel="noreferrer noopener" target="_blank"><p>The illusion of life<br><span>Watch on vimeo.com (opens in a new tab)</span></p></a></figure>
+.
+
+
+Vimeo link with custom image (no caption)
+.
+[![The illusion of life](/path/to/image.png)](https://vimeo.com/93206523)
+.
+<figure class="embed"><a href="https://vimeo.com/93206523" rel="noreferrer noopener" target="_blank"><img src="/path/to/image.png" alt="" loading="lazy"><p>The illusion of life<br><span>Watch on vimeo.com (opens in a new tab)</span></p></a></figure>
+.
+
+
+Vimeo link with title text (caption)
+.
+[The illusion of life](https://vimeo.com/93206523 "Title")
+.
+<figure class="embed"><a href="https://vimeo.com/93206523" rel="noreferrer noopener" target="_blank"><p>The illusion of life<br><span>Watch on vimeo.com (opens in a new tab)</span></p></a><figcaption>Title</figcaption></figure>
+.
