@@ -1,0 +1,30 @@
+Citation
+.
+""Everything Everywhere All at Once""
+.
+<p><cite>Everything Everywhere All at Once</cite></p>
+.
+
+
+Linked citation
+.
+[""Everything Everywhere All at Once""](#)
+.
+<p><a href="#"><cite>Everything Everywhere All at Once</cite></a></p>
+.
+
+
+Cited link
+.
+""[Everything Everywhere All at Once](#)""
+.
+<p><cite><a href="#">Everything Everywhere All at Once</a></cite></p>
+.
+
+
+Citation with inline content
+.
+""Everything Everywhere _All_ at Once""
+.
+<p><cite>Everything Everywhere <em>All</em> at Once</cite></p>
+.
