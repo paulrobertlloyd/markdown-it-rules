@@ -4,7 +4,7 @@
 
 ## Requirements
 
-Node.js v16 or later.
+Node.js v20 or later.
 
 ## Installation
 
@@ -24,7 +24,9 @@ Titles of cited works can be marked down as follows:
 ```
 
 ```html
-<p><cite>Everything Everywhere All at Once</cite> is the multiverse done right.</p>
+<p>
+  <cite>Everything Everywhere All at Once</cite> is the multiverse done right.
+</p>
 ```
 
 ### Linked embeds
@@ -37,10 +39,18 @@ Links to YouTube videos are rendered inside a `<figure>` with a thumbnail and a 
 
 ```html
 <figure class="embed">
-  <a href="https://www.youtube.com/watch?v=g4UsXksoGNg" rel="noreferrer noopener" target="_blank">
-    <img src="https://img.youtube.com/vi/g4UsXksoGNg/mqdefault.jpg" alt="" loading="lazy">
+  <a
+    href="https://www.youtube.com/watch?v=g4UsXksoGNg"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
+    <img
+      src="https://img.youtube.com/vi/g4UsXksoGNg/mqdefault.jpg"
+      alt=""
+      loading="lazy"
+    />
     <p>
-      Paul McCartney – I’ve Got a Feeling<br>
+      Paul McCartney – I’ve Got a Feeling<br />
       <span>Watch on youtube.com (opens in a new tab)</span>
     </p>
   </a>
@@ -55,9 +65,13 @@ Links to Vimeo videos are rendered inside a `<figure>` and include a prompt to w
 
 ```html
 <figure class="embed">
-  <a href="https://vimeo.com/93206523" rel="noreferrer noopener" target="_blank">
+  <a
+    href="https://vimeo.com/93206523"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
     <p>
-      The illusion of life<br>
+      The illusion of life<br />
       <span>Watch on vimeo.com (opens in a new tab)</span>
     </p>
   </a>
