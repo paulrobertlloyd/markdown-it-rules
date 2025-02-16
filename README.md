@@ -48,6 +48,7 @@ Links to YouTube videos are rendered inside a `<figure>` with a thumbnail and a 
       src="https://img.youtube.com/vi/g4UsXksoGNg/mqdefault.jpg"
       alt=""
       loading="lazy"
+      eleventy:ignore="true
     />
     <p>
       Paul McCartney – I’ve Got a Feeling<br />
