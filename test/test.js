@@ -1,10 +1,14 @@
-const {describe} = require('mocha');
-const testGenerator = require('markdown-it-testgen');
+import {describe} from 'mocha';
+import markdownit from 'markdown-it'
+import testGenerator from 'markdown-it-testgen';
+import rules from '../index.js';
 
 describe('@paulrobertlloyd/markdown-it-rules', () => {
-  const md = require('markdown-it')({
+  const md = markdownit({
     html: true,
-  }).use(require('../index.js'));
+  })
+
+  md.use(rules);
 
   testGenerator('./test/fixtures/cite.txt', md);
   testGenerator('./test/fixtures/embed.txt', md);

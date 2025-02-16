@@ -1,7 +1,7 @@
-const cite = require('./lib/cite.js');
-const linkEmbed = require('./lib/link-embed.js');
+import { cite } from './lib/cite.js';
+import { linkEmbed } from './lib/link-embed.js';
 
-module.exports = function (md, pluginOptions = {}) {
+export default function (md, pluginOptions = {}) {
   // Default plugin options
   const defaults = {
     classNameContainer: 'embed',
