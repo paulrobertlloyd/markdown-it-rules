@@ -4,7 +4,7 @@
 
 ## Requirements
 
-Node.js v20 or later.
+Node.js v22 or later.
 
 ## Installation
 
