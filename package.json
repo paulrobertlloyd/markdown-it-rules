@@ -28,16 +28,14 @@
   },
   "scripts": {
     "lint": "xo",
-    "test": "mocha",
-    "test:watch": "mocha --watch",
-    "coverage": "c8 mocha",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "test:watch": "node --test --watch",
     "release": "np"
   },
   "devDependencies": {
-    "c8": "^8.0.0",
     "markdown-it": "^14.0.0",
     "markdown-it-testgen": "^0.1.6",
-    "mocha": "^10.0.0",
     "np": "^9.2.0",
     "xo": "^0.56.0"
   },
@@ -47,12 +45,6 @@
   "type": "module",
   "publishConfig": {
     "access": "public"
-  },
-  "c8": {
-    "reporter": [
-      "text",
-      "lcovonly"
-    ]
   },
   "xo": {
     "space": true,
