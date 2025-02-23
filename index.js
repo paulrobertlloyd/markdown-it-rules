@@ -1,10 +1,13 @@
 import { cite } from "./lib/cite.js";
 import { linkEmbed } from "./lib/link-embed.js";
 
+/** @typedef {import('markdown-it').default} MarkdownIt */
+/** @typedef {import('markdown-it').Options} MarkdownItOptions */
+
 /**
  * Markdown rules
- * @param {object} md - markdown-it instance
- * @param {object} [pluginOptions] - Plugin options
+ * @param {MarkdownIt} md - markdown-it instance
+ * @param {MarkdownItOptions} [pluginOptions] - Plugin options
  */
 // eslint-disable-next-line unicorn/no-anonymous-default-export
 export default function (md, pluginOptions = {}) {
