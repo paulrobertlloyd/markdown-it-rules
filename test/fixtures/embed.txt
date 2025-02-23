@@ -52,3 +52,12 @@ Vimeo link with title text (caption)
 .
 <figure class="embed"><a href="https://vimeo.com/93206523" rel="noreferrer noopener" target="_blank"><p>The illusion of life<br><span>Watch on vimeo.com (opens in a new tab)</span></p></a><figcaption>Title</figcaption></figure>
 .
+
+
+Vimeo link with attributes
+.
+[The illusion of life](https://vimeo.com/93206523)
+{#foo}
+.
+<figure id="foo" class="embed"><a href="https://vimeo.com/93206523" rel="noreferrer noopener" target="_blank"><p>The illusion of life<br><span>Watch on vimeo.com (opens in a new tab)</span></p></a></figure>
+.

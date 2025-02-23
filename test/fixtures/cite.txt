@@ -60,3 +60,11 @@ Empty citation
 .
 <p><cite></cite></p>
 .
+
+
+Citation includes attributes
+.
+""Les Misérables""{lang=fr}
+.
+<p><cite lang="fr">Les Misérables</cite></p>
+.

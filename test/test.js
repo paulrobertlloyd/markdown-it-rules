@@ -1,6 +1,7 @@
 import test from "node:test";
 import markdownit from "markdown-it";
 import testGenerator from "markdown-it-testgen";
+import attrs from "markdown-it-attrs";
 import rules from "../index.js";
 
 // markdown-it-testgen expects Mocha to have set the following globals
@@ -12,6 +13,7 @@ describe("@paulrobertlloyd/markdown-it-rules", () => {
     html: true,
   });
 
+  md.use(attrs);
   md.use(rules);
 
   testGenerator("./test/fixtures/cite.txt", md);
