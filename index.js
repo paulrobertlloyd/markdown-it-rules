@@ -23,7 +23,5 @@ export default function (md, pluginOptions = {}) {
   md.use(cite);
 
   // Embed
-  md.core.ruler.before("linkify", "link_embed", (state) =>
-    linkEmbed(state, options),
-  );
+  md.use(linkEmbed, options);
 }
