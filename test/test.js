@@ -17,5 +17,5 @@ describe("@paulrobertlloyd/markdown-it-rules", () => {
   md.use(rules);
 
   testGenerator("./test/fixtures/cite.txt", md);
-  testGenerator("./test/fixtures/embed.txt", md);
+  testGenerator("./test/fixtures/link-embed.txt", md);
 });
