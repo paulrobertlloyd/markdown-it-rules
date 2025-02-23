@@ -28,3 +28,35 @@ Citation with inline content
 .
 <p><cite>Everything Everywhere <em>All</em> at Once</cite></p>
 .
+
+
+With other punctuation
+.
+""Doctor Who""’s companion
+.
+<p><cite>Doctor Who</cite>’s companion</p>
+.
+
+
+Multiple citations
+.
+""Everything"" and ""Everywhere""
+.
+<p><cite>Everything</cite> and <cite>Everywhere</cite></p>
+.
+
+
+Multiple citations in a sentence
+.
+See ""Everything"" and ""Everywhere"" all at once
+.
+<p>See <cite>Everything</cite> and <cite>Everywhere</cite> all at once</p>
+.
+
+
+Empty citation
+.
+""""
+.
+<p><cite></cite></p>
+.
