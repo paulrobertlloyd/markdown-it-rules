@@ -20,7 +20,7 @@ export default function (md, pluginOptions = {}) {
   const options = { ...defaults, ...pluginOptions };
 
   // Cite
-  md.core.ruler.before("inline", "cite", (state) => cite(state));
+  md.use(cite);
 
   // Embed
   md.core.ruler.before("linkify", "link_embed", (state) =>
