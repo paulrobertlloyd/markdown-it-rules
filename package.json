@@ -24,7 +24,7 @@
   "exports": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulrobertlloyd/markdown-it-rules.git"
+    "url": "git+https://github.com/paulrobertlloyd/markdown-it-rules.git"
   },
   "scripts": {
     "lint:format": "prettier . --check",
