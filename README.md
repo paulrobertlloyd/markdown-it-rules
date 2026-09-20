@@ -8,9 +8,6 @@ Node.js v24 or later.
 
 ## Installation
 
-> [!WARNING]
-> Work in progress. Package can be installed directly from this repository.
-
 `npm install paulrobertlloyd/markdown-it-rules`
 
 ## Usage
