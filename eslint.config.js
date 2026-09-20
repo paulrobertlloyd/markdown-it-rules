@@ -6,13 +6,16 @@ import globals from "globals";
 export default [
   js.configs.recommended,
   jsdoc.configs["flat/recommended"],
-  unicorn.configs["flat/recommended"],
+  unicorn.configs.recommended,
   {
     languageOptions: {
       globals: {
         ...globals.node,
         ...globals.mocha,
       },
+    },
+    rules: {
+      "unicorn/no-global-object-property-assignment": "off",
     },
   },
   prettier,
